@@ -6,6 +6,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+document.getElementById('download-cv').addEventListener('click', () => {
+    const link = document.createElement('a');
+    link.href = 'assets/CV/Dummy Curriculum Vitae.pdf'; // Pastikan path file CV benar
+    link.download = 'Dummy_CV_JSGDev.pdf'; // Nama file saat diunduh
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
+
+
 const sections = document.querySelectorAll('section');
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
