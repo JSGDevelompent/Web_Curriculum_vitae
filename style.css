@@ -240,21 +240,6 @@ input:focus, textarea:focus {
     }
 }
 
-@media (max-width: 768px) {
-    .nav-links {
-    display: none;
-    }
-
-    .hero h1 {
-    font-size: 2.5rem;
-    }
-
-    .skill-card {
-    width: 150px;
-    padding: 1rem;
-    }
-}
-
 .social-media-links {
     display: flex;
     gap: 1.5rem;
@@ -307,6 +292,7 @@ input:focus, textarea:focus {
     50% { transform: translateY(-20px); }
 }
 
+
 footer {
     text-align: center;
     padding: 1rem 0;
@@ -317,9 +303,32 @@ footer {
     margin-top: 2rem;
 }
 
-/* Footer Dark Mode */
 body.dark-mode footer {
     background-color: var(--dark-color);
     color: var(--light-color);
     border-top: 1px solid #444;
 }
+
+@media (max-width: 768px) {
+    .nav-links {
+    display: none;
+    }
+
+    .hero h1 {
+    font-size: 2.5rem;
+    }
+
+    .skill-card {
+    width: 150px;
+    padding: 1rem;
+    }
+    
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-image img {
+        max-width: 60%;
+    }
+}
+
