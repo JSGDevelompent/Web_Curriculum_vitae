@@ -1,20 +1,25 @@
 # Web Curriculum Vitae
 
-Ini adalah website portofolio / curriculum vitae statis yang dibuat menggunakan HTML, CSS, dan JavaScript. Website ini menampilkan profil JSGDev sebagai Full Stack Web Developer dan Game Developer, lengkap dengan informasi tentang diri, skills, project, dan formulir kontak. Fitur utama yang ada meliputi:
+**Web Curriculum Vitae** adalah website portofolio pribadi yang menampilkan profil, keterampilan, dan proyek-proyek saya sebagai **Full Stack Web Developer** dan **Game Developer**.
 
-- **Hero Section:** Tampilan awal dengan animasi dan tautan media sosial.
-- **Tentang Saya:** Deskripsi singkat mengenai latar belakang dan keahlian.
-- **Skills Slider:** Galeri skills yang bergerak otomatis dan responsif.
-- **Projects Gallery:** Menampilkan proyek web development dan game development.
-- **Formulir Kontak:** Memungkinkan pengunjung untuk mengirim pesan melalui email.
-- **Dark Mode:** Fitur toggle dark/light mode yang dapat diaktifkan pengguna.
+## Deskripsi Proyek
+
+Proyek ini dibuat untuk mendemonstrasikan kemampuan saya dalam pengembangan web modern. Fitur-fitur utama dari website ini meliputi:
+
+- **Navigasi Responsif:** Navbar tetap dengan link ke setiap bagian halaman.
+- **Hero Section:** Tampilan awal dengan animasi, tautan ke media sosial, dan tombol download CV.
+- **Tentang Saya:** Informasi mengenai latar belakang dan pengalaman saya.
+- **Skills:** Daftar keahlian dengan animasi scrolling yang dinamis.
+- **Projects:** Showcase proyek web development dan game development.
+- **Contact:** Formulir untuk mengirim pesan langsung.
+- **Dark Mode Toggle:** Fitur untuk beralih antara mode terang dan gelap.
 
 ## Daftar Isi
 
 - [Demo](#demo)
 - [Fitur](#fitur)
-- [Instalasi](#instalasi)
-- [Penggunaan](#penggunaan)
+- [Teknologi yang Digunakan](#teknologi-yang-digunakan)
+- [Cara Menjalankan](#cara-menjalankan)
 - [Struktur Proyek](#struktur-proyek)
 - [Kontribusi](#kontribusi)
 - [Lisensi](#lisensi)
@@ -22,73 +27,66 @@ Ini adalah website portofolio / curriculum vitae statis yang dibuat menggunakan 
 
 ## Demo
 
-*Kamu dapat melihat demo langsung jika sudah di-deploy di hosting pilihanmu.*
-
-> **Catatan:** Jika belum ada demo online, kamu bisa menjalankan secara lokal dengan membuka file `index.html` di browser.
+Anda dapat melihat demo website secara langsung di sini:  
+[**Demo Website**](https://jsgdevelompent.github.io/Web_Curriculum_vitae/)
 
 ## Fitur
 
-- **Responsif & Modern:** Desain yang adaptif dan animasi halus untuk tampilan menarik.
-- **Dark Mode:** Pengguna dapat beralih antara mode terang dan gelap.
-- **Animasi:** Efek animasi saat konten muncul (fade-up) dan pada elemen interaktif.
-- **Skills Carousel:** Galeri skills dengan animasi scroll yang berhenti ketika disorot.
-- **Navigasi Halus:** Smooth scroll untuk navigasi antar bagian website.
+- **Interaktivitas:** Animasi scroll, efek hover pada ikon media sosial, dan dark mode.
+- **Download CV:** Tombol untuk mengunduh Curriculum Vitae dalam format PDF.
+- **Responsif:** Desain yang menyesuaikan dengan berbagai ukuran layar perangkat.
 
-## Instalasi
+## Teknologi yang Digunakan
 
-1. **Clone Repository:**
+- **HTML5:** Struktur halaman.
+- **CSS3:** Styling dan animasi.
+- **JavaScript (Vanilla JS):** Interaktivitas dan manipulasi DOM.
+- **Font Awesome:** Ikon-ikon pendukung.
+- **Google Fonts (Poppins):** Tipografi modern.
 
+## Cara Menjalankan
+
+1. **Clone repository ini:**
    ```bash
    git clone https://github.com/JSGDevelompent/Web_Curriculum_vitae.git
    ```
-
-2. **Buka Folder Proyek:**
-
-   ```bash
-   cd Web_Curriculum_vitae
-   ```
-
-3. **Jalankan secara Lokal:**
-
-   Buka file `index.html` menggunakan browser favoritmu.
-
-   > **Opsional:** Gunakan [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) pada Visual Studio Code untuk pengalaman pengembangan yang lebih baik.
-
-## Penggunaan
-
-- **Navigasi:** Klik tautan di navbar untuk melompat ke bagian terkait.
-- **Dark Mode:** Klik ikon matahari/bulan di pojok kanan bawah untuk mengaktifkan atau menonaktifkan dark mode.
-- **Kontak:** Isi formulir di bagian kontak untuk mengirim pesan melalui email (pastikan mengganti action form dengan alamat email milikmu).
+2. **Buka file `index.html`** di browser favorit Anda untuk melihat website secara lokal.
 
 ## Struktur Proyek
 
 ```
 Web_Curriculum_vitae/
 ├── assets/
-│   ├── Logo/
-│   ├── photos/
+│   ├── CV/              # File CV dalam format PDF
+│   ├── Logo/            # Logo dan favicon
+│   ├── photos/          # Foto profil dan lainnya
 │   └── projects/
-│       ├── webdev/
-│       └── gamedev/
-├── index.html
-├── style.css
-└── script.js
+│       ├── webdev/      # Proyek pengembangan web
+│       └── gamedev/     # Proyek pengembangan game
+├── index.html           # Halaman utama website
+├── style.css            # Styling website
+└── script.js            # Fitur interaktif dan animasi
 ```
 
 ## Kontribusi
 
-Kontribusi sangat diharapkan! Jika kamu memiliki ide atau perbaikan, silakan buat *pull request* atau buka *issue*.
+Kontribusi sangat kami hargai! Jika Anda memiliki ide atau ingin berkontribusi pada proyek ini, silakan:
+
+- **Fork** repository ini.
+- **Buat branch** baru untuk fitur atau perbaikan.
+- **Kirim pull request** untuk ditinjau.
+
+Anda juga dapat membuka **issue** untuk melaporkan bug atau memberikan saran perbaikan.
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 ## Kontak
 
-- **Nama:** JSGDev
-- **Email:** jokosusilo.gamedev@gmail.com
 - **GitHub:** [JSGDevelompent](https://github.com/JSGDevelompent)
+- **Email:** [JSGDev](mailto:jokosusilo.gamedev@gmail.com)
 
 ---
 
-*Terima kasih telah melihat proyek ini!*
+*Dibuat dengan ❤️ oleh JSGDev*
